@@ -9,6 +9,7 @@ const Inputs = ({ type, label }) => {
         type={type}
         name="text"
         autoComplete="off"
+        placeholder={label}
         className="input text-black"
       />
       <label className="user-label">{label}</label>

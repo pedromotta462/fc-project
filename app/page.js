@@ -2,11 +2,11 @@ import Image from 'next/image';
 import Link from 'next/link';
 import BG from '../public/images/index';
 import './styles/style.css';
-import { Input } from './components/components'
+import { Input, Button } from './components/components'
 
-export default function Home() {
+export default function Initial() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center p-24 bg-[#f1f1f1]">
+    <main className="flex min-h-screen flex-col items-center justify-center bg-[#f1f1f1]">
       <div className='flex items-center justify-center w-[80%] bg-[#f5f5f5] rounded shadow-xl'>
         
         <Image src={BG.bgFC} alt="Imagem da ferreira costa" className='w-[50%] rounded'>
@@ -23,8 +23,7 @@ export default function Home() {
           <Input type="text" label="Usuário" />;
           <Input type="password" label="Senha" />;
 
-         <Link className='btn text-center' href='/Home'>Logar</Link>
-
+          <Button link='/Home' label='Logar' />
         </form>
       </div>
     </main>

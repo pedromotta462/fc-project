@@ -1,34 +1,51 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Software de integração Ferreira Costa
 
-First, run the development server:
+Website desenvolvido durante o RiseUp, para ajudar na integração de sistemas da Ferreira Costa.
+
+
+## Stack utilizada
+
+**Front-end:** React, Next.JS, TailwindCSS, JavaScript
+
+**Back-end:** Node.JS (caso for fazer)
+
+
+## Screenshots
+
+![App Screenshot](https://i.postimg.cc/DwRbm2Rk/screencapture-localhost-3000-2023-06-01-15-57-05.png)
+
+
+## Rodando localmente
+
+Clone o projeto
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+  git clone https://github.com/pedromotta462/fc-project.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Entre no diretório do projeto
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```bash
+  cd fc-project
+```
+#### Rodando Angular App
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Instale as dependências
 
-## Learn More
+```bash
+  npm install
+```
 
-To learn more about Next.js, take a look at the following resources:
+Inicie o servidor de desenvolvimento
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+  npm run dev
+```
+## Referência
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+ - [Next.JS](https://nextjs.org/docs)
 
-## Deploy on Vercel
+ - [TailwindCSS](https://tailwindui.com/documentation)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+ - [React](https://react.dev/reference/react)
