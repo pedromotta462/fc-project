@@ -29,7 +29,6 @@ Entre no diretório do projeto
 ```bash
   cd fc-project
 ```
-#### Rodando Angular App
 
 Instale as dependências
 
