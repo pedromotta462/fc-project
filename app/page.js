@@ -24,6 +24,7 @@ export default function Initial() {
           <Input type="password" label="Senha" />;
 
           <Button link='/Home' label='Logar' />
+          
         </form>
       </div>
     </main>
