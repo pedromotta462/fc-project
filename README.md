@@ -48,3 +48,5 @@ Inicie o servidor de desenvolvimento
  - [TailwindCSS](https://tailwindui.com/documentation)
 
  - [React](https://react.dev/reference/react)
+
+ - [HeroIcons](https://heroicons.com/)
