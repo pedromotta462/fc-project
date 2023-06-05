@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
     <html lang="pt-br">
         <body className={inter.className}>
             <Navbar link='/Home/User'/>
-            <Sidebar link1='/Home' link2='/Home' link3='/Home' link4='/Home/Configuration' link5='/Home' />
+            <Sidebar link1='/Home' link2='/Home' link3='/Home/User' link4='/Home/Configuration' link5='/Home' />
             {children}
         </body>
     </html>
