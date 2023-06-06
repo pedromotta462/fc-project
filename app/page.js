@@ -20,8 +20,9 @@ export default function Initial() {
             Por favor, insira seus dados.
           </h3>
           
-          <Input type="text" label="Usuário" />;
-          <Input type="password" label="Senha" />;
+          <Input type="text" label="Usuário" />
+          
+          <Input type="password" label="Senha" />
 
           <Button link='/Home' label='Logar' />
           

@@ -48,7 +48,7 @@ const Home = () => {
                 </svg>
               }
               titulo='Mural de Avisos'
-              color={'orange'}
+              color='orange'
               content={
                 <p className='font-bold'>
                   Nenhum aviso para ser exibido

@@ -3,7 +3,7 @@ import "../styles/style.css";
 
 const Inputs = ({ type, label }) => {
   return (
-    <div className="input-group">
+    <div className="input-group m-3">
       <input
         required=""
         type={type}
