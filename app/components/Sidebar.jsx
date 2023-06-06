@@ -6,7 +6,7 @@ import imgs from '../../public/images/index';
 
 function Sidebar({ link1, link2, link3, link4, link5 }) {
     return (
-        <div className='flex-col items-center justify-center bg-[#f1f1f1] h-[100%] fixed top-0 left-0 p-[1%] sidebar'>
+        <div className='z-10 flex-col items-center justify-center bg-[#f1f1f1] h-[100%] fixed top-0 left-0 p-[1%] sidebar'>
             <div className='mt-1'>
                 {/* Logo da FC*/}
                 <Link className="text-center" href={link1}>
@@ -20,7 +20,7 @@ function Sidebar({ link1, link2, link3, link4, link5 }) {
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" 
                         className="test w-10 h-10 text-[#be0f2c] mb-5 transition duration-300 transform hover:scale-110 hover:text-[#F2BD00]"
                     >
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 18.75a6 6 0 006-6v-1.5m-6 7.5a6 6 0 01-6-6v-1.5m6 7.5v3.75m-3.75 0h7.5M12 15.75a3 3 0 01-3-3V4.5a3 3 0 116 0v8.25a3 3 0 01-3 3z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 9h3.75M15 12h3.75M15 15h3.75M4.5 19.5h15a2.25 2.25 0 002.25-2.25V6.75A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25v10.5A2.25 2.25 0 004.5 19.5zm6-10.125a1.875 1.875 0 11-3.75 0 1.875 1.875 0 013.75 0zm1.294 6.336a6.721 6.721 0 01-3.17.789 6.721 6.721 0 01-3.168-.789 3.376 3.376 0 016.338 0z" />
                     </svg>
                 </Link>
 

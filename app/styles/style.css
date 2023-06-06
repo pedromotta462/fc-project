@@ -22,13 +22,13 @@
 }
 
 .input:focus,
-input:valid {
+.input:valid {
   outline: none;
   border: 1.5px solid #e31616;
 }
 
 .input:focus ~ label,
-input:valid ~ label {
+.input:valid ~ label {
   transform: translateY(-50%) scale(0.8);
   background-color: #f1f1f1;
   padding: 0 0.2em;
@@ -159,3 +159,5 @@ input:valid ~ label {
 .sidebar {
   box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2);
 }
+
+/* searchbar */
