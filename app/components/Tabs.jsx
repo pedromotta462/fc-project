@@ -1,7 +1,11 @@
 import React from 'react'
+import { ProgressBar } from './components'
 
 function Tabs({titulo, pendentes, novos, atendimento, parados, venceram, venceramHoje, venceramSemana, abertos}) {
-  return (
+  
+    const values = [venceram, venceramHoje, venceramSemana];
+
+    return (
     <div className="w-full sm:w-1/2 md:w-[40%] xl:w-[30%] m-4 p-4 shadow-xl border text-black rounded-lg">
         <div className='flex'>
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" 
@@ -24,7 +28,7 @@ function Tabs({titulo, pendentes, novos, atendimento, parados, venceram, vencera
                 <p>Abertos Hoje</p>
             </div>
         </div>
-        <div className="w-[100%] h-2 bg-blue-500"></div>
+        <ProgressBar values={values} />
             <div className='m-2'>
                 <h3 className='font-bold m-1'>Venceram</h3>
                 <div className='flex items-center m-1'> <div className="w-2 h-2 bg-red-500 mr-2"></div> {venceram} Venceram</div>

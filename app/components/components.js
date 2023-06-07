@@ -6,6 +6,7 @@ import Load from './Load'
 import SearchBar from './SearchBar'
 import Tabs from './Tabs'
 import Tabs2 from './Tabs2'
+import ProgressBar from './ProgressBar'
 
 export {
     Input,
@@ -15,5 +16,6 @@ export {
     Load,
     SearchBar,
     Tabs,
-    Tabs2
+    Tabs2,
+    ProgressBar,
 }
