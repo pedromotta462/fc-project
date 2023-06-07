@@ -50,3 +50,5 @@ Inicie o servidor de desenvolvimento
  - [React](https://react.dev/reference/react)
 
  - [HeroIcons](https://heroicons.com/)
+
+ - [Material UI](https://mui.com/material-ui/getting-started/overview/)
