@@ -7,6 +7,10 @@ import SearchBar from './SearchBar'
 import Tabs from './Tabs'
 import Tabs2 from './Tabs2'
 import ProgressBar from './ProgressBar'
+import AccessibleTabs2 from './AccessibleTabs2'
+import Order from './Order'
+import Table from './Table'
+import Profile from './Profile'
 
 export {
     Input,
@@ -18,4 +22,8 @@ export {
     Tabs,
     Tabs2,
     ProgressBar,
+    AccessibleTabs2,
+    Order,
+    Table,
+    Profile,
 }

@@ -7,7 +7,7 @@ const Home = () => {
     
         <div className='flex h-[100%] w-[94%] flex-col items-center justify-center mt-16 bg-[#f1f1f1] text-black shadow-xl'>
           <SearchBar />
-          <div class="flex flex-wrap items-center justify-center h-[100%] w-[100%]">
+          <div class="flex flex-wrap items-center justify-center">
             <Tabs 
               titulo='Meus Tickets' 
               pendentes={0} 
