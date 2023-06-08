@@ -131,7 +131,7 @@ export default function BasicTabs() {
           Histórico
         </TabPanel>
         <TabPanel value={value} index={2}>
-          Tickets
+          <Table />
         </TabPanel>
       </Box>
     </ThemeProvider>
