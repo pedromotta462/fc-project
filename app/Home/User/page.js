@@ -8,13 +8,44 @@ const User = () => {
       
     <main class = "allContent">
       <div class = "textTop">
-        <p>Principal</p>
+        <h1>Principal</h1>
       </div>
-      <div class="inputTop">
-        <p class = "nameAll"><span class="textName">Nome:</span> <input type="text" class="inputName" placeholder="Digite seu nome" /></p>
-        <p class = "nameUser"><span class="textUser">Usuario:</span><input type="text" class="inputUser" placeholder="Digite seu nome" /></p>
-    </div>
+      <div class = "textTop2">
+        <p>Tipo</p>
+      </div>
+      <div class = "inputAll">
 
+        <div class="inputTop">
+            <p class = "nameAll"><span class="textName">Nome:</span> <input type="text" class="inputName" placeholder="Digite seu nome" /></p>
+          <div class = "inputUnder">
+            <p class = "nameUser"><span class="textUser">Usuario:</span><input type="text" class="inputUser" placeholder="Digite seu nome" /></p>
+            <p class = "nameUser"><span class="textUser">Senha:</span><input type="text" class="inputUser" placeholder="Digite seu nome" /></p>
+            <p class = "nameUser"><span class="textUser">Confirmação de Senha:</span><input type="text" class="inputUser" placeholder="Digite seu nome" /></p>
+          </div>
+          <div class = "inputUnder2">
+            <p class = "nameUser"><span class="textUser">Cpf:</span><input type="text" class="inputUser" placeholder="Digite seu nome" /></p>
+            <p class = "nameUser"><span class="textUser">Código de Referencia:</span><input type="text" class="inputUser" placeholder="Digite seu nome" /></p>
+            <p class = "nameUser"><span class="textUser">Usuario:</span><input type="text" class="inputUser" placeholder="Digite seu nome" /></p>
+          </div>
+
+        </div>
+
+
+        
+      </div>
+      <div class = "inputFooter">
+          <div class = "footerUnder1">
+            <p class = "nameUser3"><span class="">Cargo:</span><input type="text" class="inputUser" placeholder="Digite seu nome" /></p>
+            <p class = "nameUser2"><span class="">Classificação:</span><input type="text" class="inputUser" placeholder="Digite seu nome" /></p>
+          </div>
+
+          <div class = "footerUnder2">
+            <p class = "nameUser3"><span class="">Perfil de acesso:</span><input type="text" class="inputUser" placeholder="Digite seu nome" /></p>
+            <p class = "nameUser2"><span class="">Superior Hierarquico:</span><input type="text" class="inputUser" placeholder="Digite seu nome" /></p>
+          </div>
+          
+          
+        </div>
     </main>
 
     </div>

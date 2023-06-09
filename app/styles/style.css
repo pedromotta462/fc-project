@@ -168,23 +168,57 @@
   width: 100%;
   margin: 0;
 }
+
 .textTop{
-  display: flex;
   font-weight: 800;
 }
-
+.textTop2{
+  font-weight: 600;
+}
+/* Text Part*/
 .textName{
   margin-top: 1%;
   font-weight: 800;
 }
 .textUser{
   font-weight: 800;
+  display: flex;
 }
 
+/* Text part final */
+
+.inputAll{
+
+  height: max-content;
+  margin-left: 1%;
+  display: flex;
+  flex-direction: column;
+}
 .inputTop{
   width: 60%;
-  margin-left: 1%;
   margin-top: 5%;
+  height: max-content;
+  border: #e31616 2px solid ;
+}
+
+.footerUnder2{
+
+  display: flex;
+  width: 100%;
+  gap: 2%;
+}
+.footerUnder1{
+
+  display: flex;
+  width: 100%;  
+  gap: 2%;
+}
+
+.inputFooter{
+  margin-top: 4%;
+  display: flex;
+  flex-direction: column-reverse
+
 }
 .inputName{
   border: #010101 2px solid;
@@ -193,4 +227,38 @@
 .inputUser{
   border: #010101 2px solid;
   width: 100%;
+  
 }
+.nameUser{
+  margin-top: 2%;
+
+  width: 29%;
+  
+}
+
+.nameUser2{
+  margin-top: 2%;
+
+  width: 50%;
+  justify-content: space-between;
+  
+}
+.nameUser3{
+  margin-top: 2%;
+ 
+  width: 50%;
+  justify-content: space-between;
+}
+.inputUnder{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.inputUnder2{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
