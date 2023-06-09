@@ -26,14 +26,14 @@ const User = () => {
         <div class="inputTop">
             <p class = "nameUser"><span class="textUser">Nome:</span><input type="text" class="inputUser2" placeholder="Digite seu nome" /></p>
           <div class = "inputUnder">
-            <p class = "nameUser"><span class="textUser">Usuario:</span><input type="text" class="inputUser" placeholder="Digite seu nome" /></p>
-            <p class = "nameUser"><span class="textUser">Senha:</span><input type="text" class="inputUser" placeholder="Digite seu nome" /></p>
-            <p class = "nameUser"><span class="textUser">Confirmação de Senha:</span><input type="text" class="inputUser" placeholder="Digite seu nome" /></p>
+            <p class = "nameUser"><span class="textUser">Usuario:</span><input type="text" class="inputUser" placeholder="Digite seu usuario" /></p>
+            <p class = "nameUser"><span class="textUser">Senha:</span><input type="text" class="inputUser" placeholder="Digite sua senha" /></p>
+            <p class = "nameUser"><span class="textUser">Confirmação de Senha:</span><input type="text" class="inputUser" placeholder="Confirme sua senha" /></p>
           </div>
           <div class = "inputUnder2">
-            <p class = "nameUser"><span class="textUser">Cpf:</span><input type="text" class="inputUser" placeholder="Digite seu nome" /></p>
-            <p class = "nameUser"><span class="textUser">Código de Referencia:</span><input type="text" class="inputUser" placeholder="Digite seu nome" /></p>
-            <p class = "nameUser"><span class="textUser">Usuario:</span><input type="text" class="inputUser" placeholder="Digite seu nome" /></p>
+            <p class = "nameUser"><span class="textUser">Cpf:</span><input type="text" class="inputUser" placeholder="Digite seu cpf" /></p>
+            <p class = "nameUser"><span class="textUser">Código de Referencia:</span><input type="text" class="inputUser" placeholder="Digite seu código de referencia" /></p>
+            <p class = "nameUser"><span class="textUser">Cód Ref Adicional:</span><input type="text" class="inputUser" placeholder="Digite seu cód ref adicional" /></p>
           </div>
 
         </div>
@@ -43,13 +43,13 @@ const User = () => {
       </div>
       <div class = "inputFooter">
           <div class = "footerUnder1">
-            <p class = "nameUser3"><span class="textUser">Cargo:</span><input type="text" class="inputUser" placeholder="Digite seu nome" /></p>
-            <p class = "nameUser2"><span class="textUser">Classificação:</span><input type="text" class="inputUser" placeholder="Digite seu nome" /></p>
+            <p class = "nameUser3"><span class="textUser">Cargo:</span><input type="text" class="inputUser" placeholder="Digite seu cargo" /></p>
+            <p class = "nameUser2"><span class="textUser">Classificação:</span><input type="text" class="inputUser" placeholder="Digite sua classificação" /></p>
           </div>
 
           <div class = "footerUnder2">
-            <p class = "nameUser3"><span class="textUser">Perfil de acesso:</span><input type="text" class="inputUser" placeholder="Digite seu nome" /></p>
-            <p class = "nameUser2"><span class="textUser">Superior Hierarquico:</span><input type="text" class="inputUser" placeholder="Digite seu nome" /></p>
+            <p class = "nameUser3"><span class="textUser">Perfil de acesso:</span><input type="text" class="inputUser" placeholder="Digite seu perfil de acesso" /></p>
+            <p class = "nameUser2"><span class="textUser">Superior Hierarquico:</span><input type="text" class="inputUser" placeholder="superior hierarquico" /></p>
           </div>
           
           
