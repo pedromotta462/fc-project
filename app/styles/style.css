@@ -161,6 +161,137 @@
 }
 
 /* Userpage */
-.testecss{
-  color: #e31616;
+/* User input */
+.allContent{
+
+  height:75vh;
+  width: 100%;
+  margin: 0;
+}
+.labelC{
+  display: flex;
+  margin: 2%;
+}
+
+.textTop{
+  font-weight: 800;
+  margin: 1%;
+}
+.textTop2{
+  font-weight: 400;
+  margin-top: 1%;
+  margin-left: 1%;
+  width: 20%;
+}
+/* Text Part*/
+.textName{
+  margin-top: 1%;
+  font-weight: 800;
+}
+.textUser{
+  font-weight: 800;
+  display: flex;
+}
+
+
+
+/* Text part final */
+
+.inputAll{
+
+  height: max-content;
+  margin-left: 1%;
+  display: flex;
+  flex-direction: column;
+}
+.inputTop{
+  width: 60%;
+  margin-top: 5%;
+  height: max-content;
+}
+
+.footerUnder2{
+
+  display: flex;
+  width: 100%;
+  gap: 2%;
+}
+.footerUnder1{
+
+  display: flex;
+  width: 100%;  
+  gap: 2%;
+}
+
+.inputFooter{
+  margin-top: 4%;
+  display: flex;
+  flex-direction: column-reverse
+
+}
+
+
+.nameUser{
+  margin-top: 2%;
+  width: 100%;
+  
+}
+
+.nameUser2{
+  margin-top: 2%;
+  width: 50%;
+  justify-content: space-between;
+  
+}
+.nameUser3{
+  margin-top: 2%;
+  width: 50%;
+  justify-content: space-between;
+}
+.inputUnder{
+  gap: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.inputUnder2{
+  gap: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.inputUser {
+  width: 100%;
+  height: 80%;
+  border-radius: 7px;
+  border: 0;
+  outline: auto grey;
+  padding-inline: 15px;
+  font-size: 16px;
+  transform: all 200ms;
+
+}
+
+.inputUser:focus {
+
+  box-shadow: 0 0 50px rgb(255, 255, 255);
+  border: 1px solid grey;
+}
+.inputUser2 {
+  width: 100%;
+  height: 2.5em;
+  border-radius: 7px;
+  border: 0;
+  outline: auto grey;
+  padding-inline: 15px;
+  font-size: 16px;
+  transform: all 200ms;
+
+}
+
+.inputUser2:focus {
+
+  box-shadow: 0 0 50px rgb(255, 255, 255);
+  border: 1px solid grey;
 }
