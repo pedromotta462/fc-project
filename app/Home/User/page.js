@@ -12,11 +12,19 @@ const User = () => {
       </div>
       <div class = "textTop2">
         <p>Tipo</p>
+        <div class = "labelC">
+          <input type="checkbox" class="myCheckbox" />
+          <label for="myCheckbox">Pessoa</label>
+          <input type="checkbox" class="myCheckbox" />
+          <label for="myCheckbox">Empresa</label>
+          <input type="checkbox" class="myCheckbox" />
+          <label for="myCheckbox">Departamento</label>
+        </div>
+       
       </div>
       <div class = "inputAll">
-
         <div class="inputTop">
-            <p class = "nameAll"><span class="textName">Nome:</span> <input type="text" class="inputName" placeholder="Digite seu nome" /></p>
+            <p class = "nameUser"><span class="textUser">Nome:</span><input type="text" class="inputUser2" placeholder="Digite seu nome" /></p>
           <div class = "inputUnder">
             <p class = "nameUser"><span class="textUser">Usuario:</span><input type="text" class="inputUser" placeholder="Digite seu nome" /></p>
             <p class = "nameUser"><span class="textUser">Senha:</span><input type="text" class="inputUser" placeholder="Digite seu nome" /></p>
@@ -35,13 +43,13 @@ const User = () => {
       </div>
       <div class = "inputFooter">
           <div class = "footerUnder1">
-            <p class = "nameUser3"><span class="">Cargo:</span><input type="text" class="inputUser" placeholder="Digite seu nome" /></p>
-            <p class = "nameUser2"><span class="">Classificação:</span><input type="text" class="inputUser" placeholder="Digite seu nome" /></p>
+            <p class = "nameUser3"><span class="textUser">Cargo:</span><input type="text" class="inputUser" placeholder="Digite seu nome" /></p>
+            <p class = "nameUser2"><span class="textUser">Classificação:</span><input type="text" class="inputUser" placeholder="Digite seu nome" /></p>
           </div>
 
           <div class = "footerUnder2">
-            <p class = "nameUser3"><span class="">Perfil de acesso:</span><input type="text" class="inputUser" placeholder="Digite seu nome" /></p>
-            <p class = "nameUser2"><span class="">Superior Hierarquico:</span><input type="text" class="inputUser" placeholder="Digite seu nome" /></p>
+            <p class = "nameUser3"><span class="textUser">Perfil de acesso:</span><input type="text" class="inputUser" placeholder="Digite seu nome" /></p>
+            <p class = "nameUser2"><span class="textUser">Superior Hierarquico:</span><input type="text" class="inputUser" placeholder="Digite seu nome" /></p>
           </div>
           
           
