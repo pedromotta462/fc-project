@@ -29,7 +29,7 @@ const SearchData = () => {
       const dataArray = querySnapshot.docs.map((doc) => doc.data());
       setData(dataArray);
     } else {
-        alert("Cliente não cadastrado");
+        alert("Cliente não cadastrado")
       setData(null);
     }
   };
@@ -57,7 +57,7 @@ const SearchData = () => {
       {data && (
         <div>
           {data.map((item) => (
-            <div key={item.id} className='flex min-h-[35vh] w-[94%] flex-col items-left justify-start mt-16 bg-[#f1f1f1] text-black shadow-xl'>
+            <div key={item.id} className='flex min-h-[35vh] w-[94%] flex-col items-left justify-start mt-6 bg-[#f1f1f1] text-black shadow-xl'>
                 <div className='flex m-5 items-center' >
                     <h1 className='text-gray-600 text-2xl'>
                       Informações do Cliente 
