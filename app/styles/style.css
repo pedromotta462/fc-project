@@ -295,3 +295,42 @@
   box-shadow: 0 0 50px rgb(255, 255, 255);
   border: 1px solid grey;
 }
+
+.cont{
+  height: 75vh;
+  width: 93vw;
+}
+
+.topInfo{
+
+  height: max-content;
+  width: 93vw;
+  display: flex;
+  top: 0;
+  
+}
+
+.imgBox{
+  flex-direction: column;
+  width: 100%;
+  height: max-content;
+}
+.mainTitle{
+  font-weight: 800;
+  font-size: 30px;
+}
+
+.lineRed{
+  width: 90vw;
+  height: 1.5vh;
+  background-color: #e31616;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.boxRex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 3.2%;
+}

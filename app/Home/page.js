@@ -55,7 +55,7 @@ const Home = () => {
                 </p>
               }
               btn={'VER AVISOS'}
-              link='/Home'
+              link='/Home/Notices'
             />
             <Tabs2 
               icon={
