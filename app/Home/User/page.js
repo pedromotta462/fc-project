@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import { initializeApp } from "firebase/app";
-import { getFirestore, collection, addDoc } from "firebase/firestore";
+import { getFirestore, collection, addDoc, serverTimestamp } from "firebase/firestore";
 import "../../styles/style.css";
 
 const firebaseConfig = {
@@ -26,6 +26,7 @@ const User = () => {
   const [cpfCnpj, setCpf] = useState("");
   const [telefone, setTelefone] = useState("");
   const [email, setEmail] = useState("");
+  const [endereco, setEndereco] = useState("");
 
 const handleSubmit = (event) => {
   event.preventDefault();
@@ -37,6 +38,8 @@ const handleSubmit = (event) => {
     cpfCnpj,
     telefone,
     email,
+    endereco,
+    dataDeInscricao: serverTimestamp()
   };
 
   addDoc(collection(db, "Persons"), userData)
@@ -48,6 +51,7 @@ const handleSubmit = (event) => {
       setCpf("");
       setTelefone("");
       setEmail(""); 
+      setEndereco("");
     })
     .catch((error) => {
       console.error("Erro ao enviar dados para o Firestore:", error);
@@ -109,9 +113,13 @@ return (
 
           <div className="inputFooter">
             <div className="footerUnder1">
-              <p className="nameUser3">
+            <p className="nameUser3">
                 <span className="textUser">Telefone:</span>
                 <input type="tel" className="inputUser" placeholder="Digite seu número" value={telefone}  onChange={(e) => setTelefone(e.target.value)}/>
+              </p>
+              <p className="nameUser3">
+                <span className="textUser">Endereço Completo:</span>
+                <input type="tel" className="inputUser" placeholder="Digite seu número" value={endereco}  onChange={(e) => setEndereco(e.target.value)}/>
               </p>
             </div>
             <div className="footerUnder2">
