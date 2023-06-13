@@ -11,6 +11,8 @@ import AccessibleTabs2 from './AccessibleTabs2'
 import Order from './Order'
 import Table from './Table'
 import Profile from './Profile'
+import Info from './Info'
+import GetInfo from './GetInfo'
 
 export {
     Input,
@@ -26,4 +28,6 @@ export {
     Order,
     Table,
     Profile,
+    Info,
+    GetInfo,
 }
