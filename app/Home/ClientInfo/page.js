@@ -2,7 +2,7 @@
 
 import '../../styles/style.css'
 
-import SearchData from '@/app/components/apifirebase';
+import SearchData from '@/app/components/SearchData';
 
 const Home = () => {
   return (
