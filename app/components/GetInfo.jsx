@@ -2,7 +2,7 @@ import React from "react";
 
 function GetInfo() {
   return (
-    <div className="flex m-5">
+    <form className="flex m-5">
       <div className="flex flex-col">
         <div className="flex m-1">
           <p className="text-gray-600">Nome:</p>
@@ -36,7 +36,10 @@ function GetInfo() {
           </input>
         </div>
       </div>
-    </div>
+      <button type="submit" className="btn">
+          Enviar
+      </button>
+    </form>
   );
 }
 
